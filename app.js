@@ -8,10 +8,20 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public"));
 
+var landingRoute = require('./routes/landing');
+
+app.use(landingRoute);
+
+
+
+
+
+
+// ======== END ========
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, process.env.IP, function () {  //if server is on
   console.log("======STARTED======");
-  console.log("============");
   console.log("Listening to Port " + process.env.PORT);
 });
