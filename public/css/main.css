@@ -2,10 +2,17 @@ body {
     background-color: #ededed;
 }
 
+#container {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: white;
+    padding-top: 15px;
+}
 
 .info-box {
     display: block;
-    min-height: 90px;
+    min-height: 50px;
     background: #fff;
     width: 100%;
     box-shadow: 0 2px 2px rgba(0,0,0,0.1);
@@ -13,7 +20,7 @@ body {
 }
 
 .info-box:hover {
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid #008d4c;
 }
 
 .info-box-text {
@@ -21,9 +28,10 @@ body {
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
     text-overflow: ellipsis;
+    margin-top: 8px;
+    margin-left: 70px;
+    font-weight: 400;
 }
 
 .info-box-icon {
@@ -33,8 +41,8 @@ body {
     border-bottom-left-radius: 2px;
     display: block;
     float: left;
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 70px;
     text-align: center;
     font-size: 45px;
     line-height: 90px;
@@ -43,7 +51,6 @@ body {
 
 .info-box-content {
     padding: 5px 10px;
-    margin-left: 90px;
 }
 
 .main-footer {
@@ -66,5 +73,42 @@ body {
     box-shadow: 0 1px 0 #e7e7e7;
 }
 .shop-card:hover {
-    border-bottom: 3px solid green;
+    border-bottom: 4px solid #008d4c;
+}
+
+.shop-number {
+    border: 1px #008d4c solid;
+    box-shadow: 0 1px 0 #bdbdbd;
+    background-color: #008d4c;
+    width: 100%;
+    height: 32px;
+    margin-top: 0;
+    color: white;
+    font-weight: 300;
+    padding-left: 17%;
+}
+
+.category-parketi{
+    background-color: #812282;
+}
+.category-santeqnika{
+    background-color: #00c0ef;
+}
+.category-wvrilmani{
+    background-color: #dd4b39;
+}
+.category-teqnika{
+    background-color: #754c97;
+}
+.category-samshMasala{
+    background-color: #a69f09;
+}
+.category-armatura{
+    background-color: #4e9c32;
+}
+.category-kafeli{
+    background-color: #f39c12;
+}
+.category-karfanjara{
+    background-color: #7877a6;
 }
